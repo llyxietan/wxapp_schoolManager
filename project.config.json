@@ -1,0 +1,151 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.9",
+	"appid": "wxc0de6bf6a226167f",
+	"projectname": "studyClass",
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 15,
+			"list": [
+				{
+					"id": -1,
+					"name": "我的界面",
+					"pathName": "pages/me/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "课表界面",
+					"pathName": "pages/schedule/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "社区",
+					"pathName": "pages/community/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "debug",
+					"pathName": "debug/debug",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "自习",
+					"pathName": "pages/study/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "绑定页面",
+					"pathName": "pages/me/binds/bind-edusys",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "debug2",
+					"pathName": "pages/debug2/debug2",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "富文本编辑器",
+					"pathName": "pages/markdown_editor/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "wenti",
+					"pathName": "pages/community/dynamic/dynamic",
+					"query": ""
+				},
+				{
+					"id": 9,
+					"name": "写回答",
+					"pathName": "pages/community/add_dynamic/add_dynamic",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "成绩",
+					"pathName": "pages/me/score/score",
+					"query": ""
+				},
+				{
+					"id": 11,
+					"name": "发起学习",
+					"pathName": "pages/study/order_operate/form/form",
+					"query": ""
+				},
+				{
+					"id": 12,
+					"name": "个人信息页面",
+					"pathName": "pages/personal_info/personal_info",
+					"query": ""
+				},
+				{
+					"id": 13,
+					"name": "空教室",
+					"pathName": "pages/order-study/order_operate/order_operate",
+					"query": ""
+				},
+				{
+					"id": 14,
+					"name": "发送消息界面",
+					"pathName": "pages/study/study_index/study_card/chat/chat",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "自习",
+					"pathName": "pages/study/study_index/study_index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "自习",
+					"pathName": "pages/study/study_index/study_card/study_card",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "排行榜",
+					"pathName": "pages/study/rank/rank",
+					"query": ""
+				}
+			]
+		}
+	}
+}

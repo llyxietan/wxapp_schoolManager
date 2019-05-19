@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/schedule/index",
+    "pages/study/index",
+    "pages/study/study_list/index",
+    "pages/study/order_operate/order_operate",
+    "pages/study/order_operate/form/form",
+    "pages/me/index",
+    "pages/community/index",
+    "pages/order-study/order_map/order_map",
+    "pages/community/dynamic/dynamic",
+    "debug/debug",
+    "pages/me/binds/bind-edusys",
+    "pages/debug2/debug2",
+    "pages/markdown_editor/index",
+    "pages/community/add_dynamic/add_dynamic",
+    "pages/me/score/score",
+    "pages/personal_info/personal_info",
+    "pages/community/dynamic/answer_detail/answer_detail",
+    "pages/order-study/index",
+    "pages/order-study/order_operate/order_operate",
+    "pages/order-study/order_operate/form/form",
+    "pages/study/study_index/study_index",
+    "pages/study/study_index/study_card/study_card",
+    "pages/study/study_index/study_card/chat/chat",
+    "pages/study/rank/rank"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "去自习",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#707070",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/schedule/index",
+        "text": "课表",
+        "iconPath": "image/tabBar/activity.png",
+        "selectedIconPath": "image/tabBar/activity_fill.png"
+      },
+      {
+        "pagePath": "pages/study/study_index/study_index",
+        "text": "自习",
+        "iconPath": "image/tabBar/select.png",
+        "selectedIconPath": "image/tabBar/select_fill.png"
+      },
+      {
+        "pagePath": "pages/community/index",
+        "text": "社区",
+        "iconPath": "image/tabBar/community.png",
+        "selectedIconPath": "image/tabBar/community_fill.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我的",
+        "iconPath": "image/tabBar/addressbook.png",
+        "selectedIconPath": "image/tabBar/addressbook_fill.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
