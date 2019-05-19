@@ -1,0 +1,45 @@
+<view class='user_contain' data-uid="{{item.userID}}" bindtap="{{model!=-1?'nav_User_personalPage':''}}">
+
+
+  <view class="avatar">
+    <image src="{{user_head_img}}" class='img-feed-source' />
+    <text class='text-feed-source' style='margin-right:40rpx;'>{{user_source_name}} </text>
+  </view>
+
+
+  <block wx:if="{{model==1}}">
+    <text class='button_text button_text_on' wx:if="{{followed==1}}" catchtap='set_followed'>取消关注</text>
+    <text class='button_text follow' wx:else catchtap='set_followed'>十 关注</text>
+
+  </block>
+  <block wx:elif="{{model==2}}">
+    <text class='button_text button_text_on' wx:if="{{invited}}">已选择</text>
+    <text class='button_text invite' wx:else catchtap='post_invited'>十 邀请</text>
+
+  </block>
+  <block wx:elif="{{model==3}}">
+    <text class='leave_messages follow' catchtap='modal_leave_message'>发消息</text>
+
+  </block>
+
+  <block wx:elif="{{model==4}}">
+    <text class='button_text follow' catchtap='modal_comment'>十 评论</text>
+
+  </block>
+
+  <block wx:elif="{{model==5}}">
+    <text class='button_text follow' catchtap='modal_reply_message'>十 回复</text>
+
+  </block>
+
+  <block wx:elif="{{model==6}}">
+    <text class='button_text follow' catchtap='modal_answer_question'>十 回答</text>
+  </block>
+
+
+
+
+
+
+
+</view>

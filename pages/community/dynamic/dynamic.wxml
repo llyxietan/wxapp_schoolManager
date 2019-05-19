@@ -1,0 +1,61 @@
+<include src='/template/interActive.wxml' />
+<nav seat='50px' />
+<view wx:if="data_success">
+  <scroll-view scroll-y="true" class="dynamic_container question_container" bindscrolltolower='get_answer_array'>
+
+    <view class="question-wrp">
+      <view class="question-item">
+        <!--问题的分类标签，最多只显示三个，wx:for tag_array-->
+        <view class="que-tag">
+          <text class="tag" >{{dynamic.sort}}</text>
+        </view>
+        <!--问题的标题 {{question_title}}-->
+        <view class="que-title">
+          {{dynamic.title}}
+        </view>
+
+        <!--问题的描述内容 {{question_describe}}-->
+
+        <view class="que-content">
+          {{dynamic.content}}
+        </view>
+        <!--问题的图片 {{card_img}}-->
+        <img_pre imgURL='{{dynamic.img_url}}' wx:if="{{dynamic.img_url}}" />
+        <user model='6' userID='{{dynamic.publish_uid}}' class='publisher' wx:if="{{dynamic.publish_uid}}"/>
+
+      </view>
+
+    </view>
+
+    <view class="answer-feed">
+      <view bindtap="modal_answer_detail" class="feed-item" wx:for="{{answer_array}}" data-index='{{index}}' wx:key="{{index}}">
+        <user model='1' userID='{{item.answer}}' refresh="{{component_user_refresh}}"/>
+        <view class="feed-content">
+          <view class="answer-body">
+            <view class="answer-txt ">
+
+
+              <l_text content='{{item.content}}' />
+            </view>
+
+            <view class="answer-actions">
+              <view class="like dot">
+                <a>{{item.agree_num}} 赞同 </a>
+              </view>
+
+              <view class="time">
+                <a>{{item.time}}</a>
+              </view>
+
+            </view>
+          </view>
+        </view>
+      </view>
+
+    </view>
+
+
+
+  </scroll-view>
+
+</view>

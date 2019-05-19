@@ -1,0 +1,5 @@
+
+<view style=" {{selected?selectedCSS:themeColorCSS}}" >
+{{inner}}
+<slot></slot>
+</view>

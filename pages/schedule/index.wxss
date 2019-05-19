@@ -1,0 +1,186 @@
+/* pages/schedule/index.wxss */
+
+page {
+  background-color: #fff;
+  height: 100%;
+  /* position: absolute; */
+  width: 100%;
+}
+
+.shadow{
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.20);
+}
+
+
+.zan-btn{
+  /* width: 30%; */
+  text-align:center;
+   /* margin:5px;  */
+  /* display: inline-block; */
+}
+
+.pic-time{
+  color: #555;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding: 10px 15px 0px 15px;
+}
+
+.addSche{
+  position: fixed;
+  z-index: 111;
+  /* height: 80%; */
+  width: 80%;
+  margin-top: 20%;
+  margin-left: 10%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.topNav {
+  box-sizing: border-box;
+  padding-top: 35px;
+  height: 70px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: #22b36e;
+}
+
+.setting {
+	text-align: left;
+  color: #fff;
+	width: 40px;
+  position: absolute;
+  font-size: 20px;
+  /* bottom: 10px; */
+  left: 15px;
+}
+
+.currentWeek {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+/* .fixed-button{
+  z-index: 100;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 70px;
+  height:70px;
+  border-radius: 50%;
+  background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+  opacity: 0.5;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+} */
+
+.week {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.week-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30rpx;
+  height: 100rpx;
+  text-align: center;
+}
+
+.week-title-little {
+  margin: 5rpx 0 0 0;
+  font-size: 23rpx;
+  color: #888;
+  text-align: center;
+}
+
+.week-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100rpx;
+  color: #888;
+  text-align: center;
+}
+
+@keyframes spin {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.week-table-font {
+  /* box-sizing: border-box; */
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rpx;
+  font-size: 25rpx;
+  text-align: left;
+  color: #fff;
+  box-sizing: border-box;
+  margin: 0px 2rpx 0 2rpx;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+.week-no-class {
+  /* box-sizing: border-box; *//* background: #cce6ff;  */
+  color: #888;
+  height: 97rpx;
+  width: 96%;
+}
+
+.week-no-class:active {
+  /* box-sizing: border-box; */
+  background-color: #f3f3f3;
+  height: 97rpx;
+  width: 100%;
+}
+
+.week-no-class1 {
+  /* box-sizing: border-box; */
+  background-color: #f3f3f3;
+  height: 97rpx;
+  width: 95%;
+}
+
+.week-table-1 {
+  /* box-sizing: border-box; */
+  background: #cce6ff;
+  height: 97rpx;
+  /* width: 95%; */
+}
+
+.week-table-2 {
+  /* box-sizing: border-box; */
+  background: #ffbf80;
+  height: 197rpx;
+}
+
+.week-table-3 {
+  background: #ffbf80;
+  height: 297rpx;
+}
+
+.week-table-4 {
+  background: #ffbf80;
+  height: 397rpx;
+}

@@ -1,0 +1,114 @@
+page{
+  background-color: white;
+}
+.question_container{
+  padding: 0;
+  font-size: 14rpx;
+  color: #000;
+  background: #F0F4F3;
+  /* height: 1170rpx; */
+}
+.dynamic_container .feed-item{
+  width: 690rpx;
+  padding: 30rpx 30rpx 20rpx;
+  margin: 7rpx 0 6rpx 0;
+  background: #ffffff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 5px #eeeeee;
+}
+.dynamic_container .feed-item .feed-content{
+  padding: 10rpx 0 0 0;
+
+}
+.dynamic_container .feed-item .feed-content .question text{
+  font-size: 28rpx;
+  font-weight: 600px;
+  line-height: 40rpx;
+}
+.dynamic_container .feed-item .feed-content .answer-body{
+  padding: 10rpx 0 0 0;
+  /*height: 10rpx;*/
+  font-size: 24rpx;
+  line-height: 28rpx;
+  color: #5b5b5b;
+}
+.answer-txt{
+  height: 60rpx;
+  overflow: hidden;
+}
+
+.dynamic_container .feed-item .feed-content .answer-actions{
+  width: 690rpx;
+  padding: 10rpx 0  0;
+  color: #a0acac;
+}
+.dynamic_container .feed-item .feed-content .answer-actions view{
+  display: inline-block;
+  vertical-align: text-bottom;
+  padding: 0 10rpx 0 0;
+  font-size: 24rpx;
+}
+.dynamic_container .feed-item .feed-content .answer-actions .dot ::after{
+  content: "•";
+}
+.answer-feed {
+    padding: 0;
+    font-size: 14rpx;
+    background: #F0F4F3;
+    color: #000;
+    
+}
+.question-wrp{
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #bebebe;
+}
+.answer-feed .feed-item .feed-content .answer-body{
+    padding: 0;
+    /*height: 10rpx;*/
+    font-size: 24rpx;
+    line-height: 28rpx;
+    color: #5b5b5b;
+}
+
+
+.question-item{
+    width: 710rpx;
+    padding: 40rpx 20rpx 10rpx;
+    background: #fff;
+}
+
+.question-item .que-tag .tag{
+    height: 28rpx;
+    padding: 15rpx 20rpx;
+    border-radius: 28rpx;
+    margin: 0 10rpx;
+    background: #EEF5F8;
+    color: #2186E0;
+    font-size: 28rpx;
+    vertical-align: middle;
+}
+.question-item .que-title{
+    padding: 40rpx 20rpx 30rpx;
+    font-size: 38rpx;
+}
+.question-item .que-content{
+    padding: 0 20rpx;
+    font-size: 26rpx;
+    margin-bottom: 10rpx;
+    padding-bottom: 10rpx;
+    border-bottom: 1rpx solid lightgray;
+}
+
+
+.publisher{
+  margin-left:11px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<include src='/template/interActive.wxml' />
+
+<import src="/template/back-ground/1.wxml" />
+<template is="back-ground-1" />
+
+<navigation color="1"></navigation>
+<view class='view-box'>
+  <form bindsubmit="formSubmit">
+
+    <view class='inpit'>
+      <view style='width:50px;'>账号</view>
+      <input name="xh"></input>
+    </view>
+    <view class='inpit'>
+      <view style='width:50px;'>密码</view>
+      <input name="psd" type='password'> </input>
+    </view>
+    <view style='position:relative;' class='inpit'>
+      <view style='width:50px;'>验证</view>
+      <input name="check_code">
+      </input>
+      <image bindtap='changeCode' src='{{check_code}}' style="z-index:100;position:absolute;right:20px;width:72px;height:27px;"></image>
+    </view>
+
+
+    <button form-type='submit'>绑定</button>
+
+  </form>
+</view>

@@ -1,0 +1,4 @@
+
+
+
+<image catchtap='pre_image' src="{{imgURL}}"  mode="{{complete?'aspectFit':'aspectFill'}}" class='img'></image>
